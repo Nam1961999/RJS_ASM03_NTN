@@ -54,7 +54,7 @@ function HomePage(props) {
     }
     useEffect(() => {
     }, [background__url])
-    console.log(props.data.length)
+    // console.log(props.data.length)
     return (
         <div className='home_container'>
             <div>

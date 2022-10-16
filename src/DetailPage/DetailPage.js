@@ -37,7 +37,8 @@ function DetailPage(props) {
     let long_desc = "";
     if (detailDevice.long_desc) {
         let descLines = detailDevice.long_desc.split('\n•');
-        if (descLines.length > 1) {
+        if(descLines.length < 2) descLines = detailDevice.long_desc.split('\n-');
+        if (descLines.length > 2) {
             let lines = [];
 
             for (let i = 1; i < descLines.length; i++) {
@@ -77,11 +78,11 @@ function DetailPage(props) {
     }
 
     useEffect(() => {
-        window.scrollTo({
+        window.scroll({
             top: 0,
             left: 0,
-            behavior: 'smooth'
-        })
+            behavior: "smooth"
+        });
     }, [detailDevice]);
 
 

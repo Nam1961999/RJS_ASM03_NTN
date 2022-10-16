@@ -39,7 +39,7 @@ function ItemDevice(props) {
             setId(data[props.index]._id.$oid)
             // console.log(data[props.index]._id.$oid)
         }
-    }, [props.index]);
+    }, [props.index, data]);
  
 
 
