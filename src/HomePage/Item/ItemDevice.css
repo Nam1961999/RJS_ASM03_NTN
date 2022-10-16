@@ -1,0 +1,23 @@
+.item{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.item:hover{
+    opacity: 0.5;
+}
+.photo__item{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+.img_popUp{
+    width: 500px;
+}
+.popUpContainer{
+    width: 1000px;
+}

@@ -1,0 +1,38 @@
+.container__navbar{
+    display: flex;
+
+}
+.left__navbar{
+    left: 0;
+    display: flex;
+    margin: auto;
+}
+.name__navbar{
+   
+    display: flex;
+    margin: auto;
+}
+.right__navbar{
+    right: 0;
+    display: flex;
+    margin: auto;
+    font-style: italic;
+}
+
+a{
+    margin-left: 20px;
+}
+#person{
+    display: none;
+}
+.navbar__item{
+    margin-left: 20px;
+    color: blue
+}
+.container__navbar a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#person{
+    display: none;
+}

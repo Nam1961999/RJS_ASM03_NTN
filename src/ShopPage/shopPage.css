@@ -1,0 +1,38 @@
+.container__categories{
+    display: flex;
+}
+.categories{
+    max-width: 20%;
+    display: flow-root;
+}
+.categories ul {
+    list-style-type: none;
+}
+button{
+    border: none;
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}
+.btn_category button{
+    background-color: #f6f9f6;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.listShop{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    gap: 50px;
+}
+
+.itemImgShop{
+    max-width: 100%;
+}
+.item__categories{
+    width: 1000px;
+}
+.listShop{
+    margin: 20px;
+}

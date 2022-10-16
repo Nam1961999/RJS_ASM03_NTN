@@ -1,0 +1,52 @@
+.detail_container {
+    display: flex;
+    gap: 20px;
+}
+
+.detail_container img {
+    width: 500px;
+    height: 500px;
+}
+
+.contaiter {
+    margin: 50px;
+    display: flex;
+}
+.detail_container button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 140px;
+}
+.detail_container input {
+    width: 200px;
+}
+.contaiter button{
+    color: white;
+    background-color: black;
+    width: 136px;
+    height: 36px;
+    margin-left: 0;
+}
+.more_img img{
+    width: 100px;
+    margin-top: 20px;
+}
+.more_img img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.previewed{
+    transform: scale(1.1);
+}
+
+.container_detail{
+    margin:20px
+}
+.description{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 15px
+}

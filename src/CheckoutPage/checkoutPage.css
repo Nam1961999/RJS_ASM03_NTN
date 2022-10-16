@@ -1,0 +1,46 @@
+.btn_checkout{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 29px;
+    font-style: italic;
+    font-weight: 100;
+}
+.checkout_container{
+    display: flex;
+    margin-left: 10%;
+}
+#inputPassword5{
+    width: 80%;
+}
+.input_checkout{
+    width: 80%;
+}
+.title_director{
+    display: flex;
+    text-align: right;
+    gap: 5%
+}
+.title_checkout{
+    margin-left: 200px;
+    font-style: italic;
+}
+.checkout_top{
+    display: flex;
+gap: 50%;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.curent_checkout{
+    color: #acacac;
+}
+.form-label{
+font-style: italic;
+}
+.total_checkin{
+    display: inline;
+width:  20%;
+}
+.checkout{
+    margin: 20px;
+}
